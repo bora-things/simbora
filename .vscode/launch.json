@@ -1,0 +1,35 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "debugpy",
+      "request": "launch",
+      "name": "Supervisor Agent",
+      "module": "simbora.agents.supervisor",
+    },
+    {
+      "type": "debugpy",
+      "request": "launch",
+      "name": "RAG Agent",
+      "module": "simbora.agents.rag",
+    },
+    {
+      "name": "SIGAA Agent",
+      "type": "debugpy",
+      "request": "launch",
+      "module": "simbora.agents.sigaa"
+    },
+    {
+      "type": "debugpy",
+      "request": "launch",
+      "name": "ChromaService",
+      "module": "simbora.services.chroma_service",
+    },
+    {
+      "type": "debugpy",
+      "request": "launch",
+      "name": "ChromaRepository",
+      "module": "simbora.repositories.chroma_repository",
+    }
+  ]
+}

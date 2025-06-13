@@ -1,0 +1,7 @@
+langchain-chroma==0.2.4
+langchain-openai==0.3.21
+langchain-community==0.3.24
+PyMuPDF==1.26.0
+langchain-groq==0.3.2
+langgraph==0.4.8
+langgraph-supervisor==0.0.27
